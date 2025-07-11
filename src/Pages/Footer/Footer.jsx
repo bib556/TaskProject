@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom";
-// import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink  } from 'react-router-hash-link';
 import "./Footer.css"
 function Footer() {
   return (
@@ -16,9 +16,9 @@ function Footer() {
       <div className="heading">
        <h2>Quick Links</h2>
       <ul>
-        <li><a href="about">About us</a></li>
-        <li><a href="ourTeam">Team</a></li>
-        <li><a href="contact">contact Us</a></li>
+        <li><HashLink smooth to ="/#about">About US</HashLink></li>
+        <li><HashLink smooth to = "/#team">Team</HashLink></li>
+        <li><HashLink smooth to ="/#contact">Contact</HashLink></li>
         <li id = "anotherApi"><Link to= "/newsApi">Links to Quote Api </Link></li>
       </ul>
       </div>

@@ -24,7 +24,7 @@ function Home() {
     }, 7000);
 
     return () => clearInterval(interval); // Clean up
-  }, []); 
+  }, [images.length]); 
 
  function handleRightClick(){
     if(currentIndex >= (images.length-1)){

@@ -154,8 +154,13 @@
     row-gap:20px;
    
 }
+.companyPara p{
+    /* color:green; */
+    line-height:1.4;
+    font-size:1.5rem;
+}
   .aboutText{
-    width:80%;
+    width:96%;
     height:auto;
     padding:3rem 1rem;
 }

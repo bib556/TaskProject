@@ -34,6 +34,8 @@
     position:absolute;
     right:20px;
     top:49%;
+    background-color:none;
+    border:none;
 
 }
 /* .rightButton button{
