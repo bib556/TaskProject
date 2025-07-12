@@ -29,13 +29,16 @@
 }
 .info h1{
     font-size:2rem;
-    margin-bottom:10px;
+    margin-bottom:1rem;
+    color:black;
 }
 .info p{
   line-height:1.4;
   font-size:1.2rem;
+  color:black;
 }
 .infoSection{
+    margin-top:2rem;
     height:70%;
     width:100%;
     display:flex;
@@ -54,6 +57,7 @@
 }
  .informationSection p{
     font-size:16px;
+    color:black;
   
 }
 .symbol{
@@ -71,6 +75,9 @@ align-content:center;
     align-items:center;
     font-size:20px;
 }
+.information h3{
+    color:black;
+}
 /* form Section  */
 .contact{
     height:100%;
@@ -81,6 +88,7 @@ align-content:center;
 }
 .contact h1{
     font-size:1.8rem;
+    color:black;
 }
 .formSection{
     margin-top:20px;
@@ -105,22 +113,14 @@ align-content:center;
     border:1px solid black;
     
 }
-/* .formSection button{
-    padding:10px 20px;
-    border:1px solid black;
- border-radius:8px;
- background-color:blue;
- color:white;
- align-items:center;
-} */
 #submitButton{
- height:20%;
- width:60%;
+ height:40px;
+ width:50%;
  border:1px solid black;
  border-radius:8px;
- background-color:blue;
+ background-color:red;
  color:white;
- align-items:center;
+ align-items: center;
 }
 #submitButton:hover{
     cursor:pointer;
@@ -159,9 +159,15 @@ align-content:center;
 }
 .info{
     height:100%;
-    width: 96%;
+    width: 100%;
     /* background-color:green; */
+    padding:1rem 1rem;
+    text-align:center;
 
+}
+.info p{
+    text-align:center;
+    margin-bottom:10px;
 }
 .contact{
     height:100%;
@@ -179,5 +185,20 @@ align-content:center;
     margin-left:20px;
     margin-bottom:20px;
 }
-}
+#submitButton{
+ width:72%;
 
+}
+}
+@media(max-width:600px){
+  .informationSection{
+    height:25%;
+    width:100%;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    /* background-color:green; */
+    
+}
+}

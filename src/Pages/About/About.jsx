@@ -24,7 +24,9 @@ function About() {
       </div>
       <div className="teamSection">
         <h1>The Team You Look For</h1>
-        <p>Aakash Labs is headquartered in Nepal, providing digital marketing, data mining, and machine <br />learning services to clients around the globe.</p>
+        <div className="teamPara">
+        <p>Aakash Labs is headquartered in Nepal, providing digital marketing, data mining, and machine learning services to clients around the globe.</p>
+        </div>
         <div className="containers">
           <div className="container">
               100% <br />

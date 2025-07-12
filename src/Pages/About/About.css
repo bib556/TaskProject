@@ -14,22 +14,29 @@
 .aboutText{
     width:50%;
     height:auto;
-    padding:3rem 1rem;
+    padding:3rem 2rem;
+
 }
 .aboutText h3{
     font-size:1.5rem;
     text-decoration:underline;
     margin-bottom:3%;
+    color:black;
 }
 .aboutText h1{
     font-weight:bold;
     color:brown;
     font-size:2rem;
+    margin-bottom:1rem;
+}
+.companyPara{
+    text-align:jusitfy;
 }
 .companyPara p{
     /* color:green; */
     line-height:1.5;
-    font-size:1.5rem;
+    font-size:1.4rem;
+    color:black;
 }
 .seeButton{
     height:40px;
@@ -71,18 +78,28 @@
     margin:auto;
     text-align:center;
     margin-bottom:100px;
-
 }
+
 .teamSection h1{
     margin-bottom:20px;
     font-weight:bold;
     font-size:36px;
     color:brown;
 }
-.teamSection p{
+.teamPara{
+    width:70%;
+    height:auto;
+    margin:auto;
+    padding:o.5rem 0.5rem;
+
+}
+.teamPara p{
     margin-bottom:40px;
     font-size:1.5rem;
     line-height:1.5;
+    color:black;
+    
+
 }
 .containers{
     height:80%;
@@ -110,13 +127,16 @@
 
 @media (max-width:1200px){
     .aboutText{
-    width:80%;
+    width:90%;
     height:auto;
     padding:3rem 1rem;
+    text-align:center;
+}
+.aboutText h1{
+    margin-bottom:10px;
 }
 .imageSection{
     min-height:auto;
-    /* background-color:green; */
     width: 80%;
     border:1px solid white;
     border-radius:4px;
@@ -154,16 +174,24 @@
     row-gap:20px;
    
 }
-.companyPara p{
-    /* color:green; */
-    line-height:1.4;
-    font-size:1.5rem;
-}
-  .aboutText{
-    width:96%;
+ .aboutText{
+    width:100%;
     height:auto;
     padding:3rem 1rem;
+
 }
+.aboutText h1{
+    font-size:1.6rem;
+    margin-bottom:12px;
+}
+
+.companyPara p{
+    /* color:green; */
+    line-height:1.6;
+    font-size:18px;
+    color:black;
+}
+ 
 .imageSection{
     min-height:auto;
     width: 80%;

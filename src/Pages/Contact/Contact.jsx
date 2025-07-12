@@ -55,9 +55,9 @@ function Contact() {
         <div className="contactInfo">
       <div className="info">
         <h1>Contact Us</h1>
-         <p>We at Aakash Labs can provide you with unparalleled  <br />
-            insight and digital marketing analysis. For assistance with <br />
-             any inquiries, or if you require our services, reach out to us <br />
+         <p>We at Aakash Labs can provide you with unparalleled  
+            insight and digital marketing analysis. For assistance with 
+             any inquiries, or if you require our services, reach out to us 
               at:</p>
         <div className="infoSection">
             <div className="informationSection">
